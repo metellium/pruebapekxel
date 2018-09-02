@@ -1,4 +1,4 @@
-zbr<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -27,7 +27,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 <p>New-Item -Path '.env' -ItemType File</p>
 
 <p>6.-configurar el archivo .env con la siguiente informacion:</p>
-<p>
+<input>
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:aDtmwhV/kMDwr6WfdYs9i+eE0sz1O28cmY2Oe3pjTao=
@@ -67,7 +67,7 @@ PUSHER_APP_CLUSTER=mt1
 
 MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
-</p><br>
+</input><br>
 
 <p>6.- crear la base de datos en MySQL con la siguiente instrucción:</p>
 <p>create database wabsdeve_vpekxel;
