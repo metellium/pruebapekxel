@@ -26,48 +26,47 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 <p>5.-Crear el archivo.env con el comando:</p>
 <p>New-Item -Path '.env' -ItemType File</p>
 
-<p>6.-configurar el archivo .env con la siguiente informacion:</p>
-<input>
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=base64:aDtmwhV/kMDwr6WfdYs9i+eE0sz1O28cmY2Oe3pjTao=
-APP_DEBUG=true
-APP_URL=http://localhost
+<p>6.-configurar el archivo .env con la siguiente informacion:</p><br>
+APP_NAME=Laravel<br>
+APP_ENV=local<br>
+APP_KEY=base64:aDtmwhV/kMDwr6WfdYs9i+eE0sz1O28cmY2Oe3pjTao=<br>
+APP_DEBUG=true<br>
+APP_URL=http://localhost<br>
 
-LOG_CHANNEL=stack
+LOG_CHANNEL=stack<br>
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=wabsdeve_vpekxel
-DB_USERNAME=root
-DB_PASSWORD=''
+DB_CONNECTION=mysql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=wabsdeve_vpekxel<br>
+DB_USERNAME=root<br>
+DB_PASSWORD=''<br>
 
-BROADCAST_DRIVER=log
-CACHE_DRIVER=file
-SESSION_DRIVER=file
-SESSION_LIFETIME=120
-QUEUE_DRIVER=sync
+BROADCAST_DRIVER=log<br>
+CACHE_DRIVER=file<br>
+SESSION_DRIVER=file<br>
+SESSION_LIFETIME=120<br>
+QUEUE_DRIVER=sync<br>
 
-REDIS_HOST=127.0.0.1
-REDIS_PASSWORD=null
-REDIS_PORT=6379
+REDIS_HOST=127.0.0.1<br>
+REDIS_PASSWORD=null<br>
+REDIS_PORT=6379<br>
 
-MAIL_DRIVER=smtp
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
+MAIL_DRIVER=smtp<br>
+MAIL_HOST=smtp.mailtrap.io<br>
+MAIL_PORT=2525<br>
+MAIL_USERNAME=null<br>
+MAIL_PASSWORD=null<br>
+MAIL_ENCRYPTION=null<br>
 
-PUSHER_APP_ID=
-PUSHER_APP_KEY=
-PUSHER_APP_SECRET=
-PUSHER_APP_CLUSTER=mt1
+PUSHER_APP_ID=<br>
+PUSHER_APP_KEY=<br>
+PUSHER_APP_SECRET=<br>
+PUSHER_APP_CLUSTER=mt1<br>
 
-MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
-MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
-</input><br>
+MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"<br>
+MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"<br>
+<br>
 
 <p>6.- crear la base de datos en MySQL con la siguiente instrucción:</p>
 <p>create database wabsdeve_vpekxel;
