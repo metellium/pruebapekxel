@@ -68,7 +68,7 @@ MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"<br>
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"<br>
 <br>
 
-<p>6.- Crear la base de datos en MySQL con la siguiente instrucción:</p>
+<p>6.- Crear la base de datos en MySQL con las siguientes instrucciones:</p>
 <p>create database wabsdeve_vpekxel;<br>
 use wabsdeve_vpekxel;<br>
 create table formulario(id int(5)primary key not null auto_increment, tipo_ciclismo varchar(255)not null, anios int(2) not null, horas int(2) not null, marcas varchar(255)not null);<br></p>
