@@ -23,10 +23,10 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 <p>4.- colocar el siguiente comando para que se instalen todos los paquetes necesarios</p><br>
  <p>composer install</p><br>
     
-<p>5.-Crear el archivo.env con el comando:</p>
+<p>5.-Crear el archivo.env con el comando en PowerShell:</p>
 <p>New-Item -Path '.env' -ItemType File</p>
 
-<p>6.-configurar el archivo .env con la siguiente informacion:</p><br>
+<p>6.-agregar al archivo .env la siguiente informacion:</p><br>
 APP_NAME=Laravel<br>
 APP_ENV=local<br>
 APP_KEY=base64:aDtmwhV/kMDwr6WfdYs9i+eE0sz1O28cmY2Oe3pjTao=<br>
