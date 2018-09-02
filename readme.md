@@ -1,4 +1,4 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+zbr<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -10,15 +10,23 @@
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. 
+<br>
+ <p>Requisitos:<br>
+ XAMPP<br>
+ Composer<br>   
+ Editor de texto<br>
+ </p><br>
+ <p>Instrucciones para el proyecto:<br>
+<p>1.- Descargar Composer: https://getcomposer.org/</p><br>
+<p>2.- Descargar este repositorio.</p><br>
+<p>3.- una vez descargado descomprimes la carpeta y abres la consola en la dirección del proyecto.</p><br>
+<p>4.- colocar el siguiente comando para que se instalen todos los paquetes necesarios</p><br>
+ <p>composer install</p><br>
+    
+<p></p>5.-Crear el archivo.env con el comando:
 
-Instrucciones para el proyecto:
-
-1.- Descargar Composer: https://getcomposer.org/
-2.- Descargar eeste repositorio.
-3.- una vez descargado descomprimes la carpeta y abres la consola en la dirección del proyecto.
-4.- colocar el siguiente comando para que se instalen todos los paquetes necesarios
-    composer install
-5.- configurar el archivo .env con la siguiente informacion:
+New-Item -Path '.env' -ItemType File
+y configurar el archivo .env con la siguiente informacion:
 
 APP_NAME=Laravel
 APP_ENV=local
