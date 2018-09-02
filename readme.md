@@ -72,5 +72,5 @@ MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"<br>
 <p>create database wabsdeve_vpekxel;<br>
 use wabsdeve_vpekxel;<br>
 create table formulario(id int(5)primary key not null auto_increment, tipo_ciclismo varchar(255)not null, anios int(2) not null, horas int(2) not null, marcas varchar(255)not null);<br></p>
-7.- en la consola colocar la instrucción para ejecutar el servido php:<br>
+7.- en la consola colocar la instrucción para ejecutar el servidor php:<br>
 php artisan serve
