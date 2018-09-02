@@ -19,14 +19,14 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
  <p>Instrucciones para el proyecto:<br>
 <p>1.- Descargar Composer: https://getcomposer.org/</p><br>
 <p>2.- Descargar este repositorio.</p><br>
-<p>3.- una vez descargado descomprimes la carpeta y abres la consola en la dirección del proyecto.</p><br>
-<p>4.- colocar el siguiente comando para que se instalen todos los paquetes necesarios</p><br>
+<p>3.- Una vez descargado descomprimes la carpeta y abres la consola en la dirección del proyecto.</p><br>
+<p>4.- Colocar el siguiente comando para que se instalen todos los paquetes necesarios</p><br>
  <p>composer install</p><br>
     
 <p>5.-Crear el archivo.env con el comando en PowerShell:</p>
 <p>New-Item -Path '.env' -ItemType File</p>
 
-<p>6.-agregar al archivo .env la siguiente informacion:</p><br>
+<p>6.-Agregar al archivo .env la siguiente información:</p><br>
 APP_NAME=Laravel<br>
 APP_ENV=local<br>
 APP_KEY=base64:aDtmwhV/kMDwr6WfdYs9i+eE0sz1O28cmY2Oe3pjTao=<br>
@@ -68,9 +68,9 @@ MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"<br>
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"<br>
 <br>
 
-<p>6.- crear la base de datos en MySQL con la siguiente instrucción:</p>
+<p>6.- Crear la base de datos en MySQL con la siguiente instrucción:</p>
 <p>create database wabsdeve_vpekxel;<br>
 use wabsdeve_vpekxel;<br>
 create table formulario(id int(5)primary key not null auto_increment, tipo_ciclismo varchar(255)not null, anios int(2) not null, horas int(2) not null, marcas varchar(255)not null);<br></p>
-7.- en la consola colocar la instrucción para ejecutar el servidor php:<br>
+7.- En la consola colocar la instrucción para ejecutar el servidor php:<br>
 php artisan serve
