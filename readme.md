@@ -23,11 +23,11 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 <p>4.- colocar el siguiente comando para que se instalen todos los paquetes necesarios</p><br>
  <p>composer install</p><br>
     
-<p></p>5.-Crear el archivo.env con el comando:
+<p>5.-Crear el archivo.env con el comando:</p>
+<p>New-Item -Path '.env' -ItemType File</p>
 
-New-Item -Path '.env' -ItemType File
-y configurar el archivo .env con la siguiente informacion:
-
+<p>6.-configurar el archivo .env con la siguiente informacion:</p>
+<p>
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:aDtmwhV/kMDwr6WfdYs9i+eE0sz1O28cmY2Oe3pjTao=
@@ -67,12 +67,12 @@ PUSHER_APP_CLUSTER=mt1
 
 MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+</p><br>
 
-6.- crear la base de datos en MySQL con la siguiente instrucción:
-
-create database wabsdeve_vpekxel;
+<p>6.- crear la base de datos en MySQL con la siguiente instrucción:</p>
+<p>create database wabsdeve_vpekxel;
 use wabsdeve_vpekxel;
 create table formulario(id int(5)primary key not null auto_increment, tipo_ciclismo varchar(255)not null, anios int(2) not null, horas int(2) not null, marcas varchar(255)not null);
-
+</p>
 7.- en la consola colocar la instrucción para ejecutar el servido php:
 php artisan serve
