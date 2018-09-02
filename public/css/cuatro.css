@@ -1,0 +1,95 @@
+
+
+.dondop{
+    box-sizing: border-box; 
+   
+}
+
+.fondopu{
+    border-style: solid;
+    
+    width: 49%;
+    float: left;
+    padding-top: 400px;   
+background: rgb(226, 23, 140);
+
+}
+.fondobl{    
+    border-style: solid;
+    border-color: white;
+    
+    width: 49%;
+    float: left;
+    padding-top: 400px;   
+background: rgba(252, 252, 252, 0.904);
+
+}
+.fondoob{    
+    border-style: solid;
+    
+    width: 49%;
+    float: left;
+    padding-top: 400px;  
+    background: rgb(39, 38, 38);
+
+}
+
+.fondoam{  
+    border-style: solid;
+    
+    width: 25%;
+    float: left;
+    padding-top: 400px;   
+background: rgb(217, 221, 5);
+
+
+}
+.fondooba{   
+    padding: 0%; 
+    width: 100%;
+    padding-top: 100px;  
+    background: rgb(255, 255, 255);
+
+}
+#header{    
+margin: 0%;
+padding: 40px;
+background: #1C0920;
+}
+.contact header ul li {
+    display: inline;          
+    text-decoration: none;
+}
+.container{
+    margin: 15%;
+    position: absolute;   
+}
+#footer{  
+    background: white;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    display: block;    
+}
+#footer .row{
+    background: rgb(47, 82, 238);    
+    width: 60%;
+    border-style: solid;
+float: left;
+   
+}
+.footera{    
+    background: blue;
+    border-style: solid;  
+    float: right;
+    margin: auto;
+    padding: 0;
+    width: 30%;
+    text-align: center;
+    display: block;    
+   
+}
+.footera .icons .azul{
+    background: blue;
+}
